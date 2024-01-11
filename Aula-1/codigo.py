@@ -8,12 +8,16 @@ import pyautogui
 """ clicar -> pyautogui.click """
 """ escrever -> pyautogui.write """
 """ apertar uma tecla -> pyautogui.press """
+""" apertar atalho -> pyautogui.hotkey """
+
+pyautogui.PAUSE = 1 
+""" define que a cada comando espere 1seg """
 pyautogui.press("win")
 
 """ digita o nome do programa (chrome) """
 pyautogui.write("chrome")
 
-""" aperta o ENTER """
+
 pyautogui.press("enter")  
 """ se quiser colocar aspas no texto usa -> \" <-  EXEMPLO: pyautogui.press("enter\"exmp") """
 
