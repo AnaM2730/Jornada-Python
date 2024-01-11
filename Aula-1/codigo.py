@@ -1,0 +1,17 @@
+""" #  Passo a passo do projeto - pyautogui - RPA - automação bot  """
+
+""" Passe #1 - Entrar no sistema da empresa """
+"""  https://dlp.hashtagtreinamentos.com/python/intensivao/login  """
+
+import pyautogui
+
+""" clicar -> pyautogui.click """
+""" escrever -> pyautogui.write """
+""" apertar uma tecla -> pyautogui.press """
+pyautogui.press("win")
+""" digita o nome do programa (chrome) """
+
+""" Passo #2 - Fazer login """
+""" Passo #3 - Importar a base de dados """
+""" Passo #4 - Cadastrar um produto """
+""" Passo #5 - Repetir isso até acabar a base de dados """
