@@ -36,7 +36,7 @@ time.sleep(5)
 
 
 """ Passo #2 - Fazer login """
-pyautogui.click()
+pyautogui.click(x=552, y=374)
 
 
 
