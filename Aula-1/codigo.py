@@ -9,7 +9,17 @@ import pyautogui
 """ escrever -> pyautogui.write """
 """ apertar uma tecla -> pyautogui.press """
 pyautogui.press("win")
+
 """ digita o nome do programa (chrome) """
+pyautogui.write("chrome")
+
+""" aperta o ENTER """
+pyautogui.press("enter")  
+""" se quiser colocar aspas no texto usa -> \" <-  EXEMPLO: pyautogui.press("enter\"exmp") """
+
+
+
+
 
 """ Passo #2 - Fazer login """
 """ Passo #3 - Importar a base de dados """
