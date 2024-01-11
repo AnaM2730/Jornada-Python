@@ -17,12 +17,18 @@ pyautogui.press("win")
 """ digita o nome do programa (chrome) """
 pyautogui.write("chrome")
 
-
+ # aperta o ENTER 
 pyautogui.press("enter")  
 """ se quiser colocar aspas no texto usa -> \" <-  EXEMPLO: pyautogui.press("enter\"exmp") """
 
+#DIGITAR o link
+#variavel (link)
+link =  "https://dlp.hashtagtreinamentos.com/python/intensivao/login"
+# o 'link' recebe (=) o valor do https://dlp.hashtagtreinamentos.com/python/intensivao/login 
+pyautogui.write(link)
 
-
+ # aperta o ENTER 
+pyautogui.press("enter")
 
 
 """ Passo #2 - Fazer login """
