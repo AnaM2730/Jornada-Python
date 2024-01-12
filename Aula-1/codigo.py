@@ -48,12 +48,15 @@ pyautogui.press("tab")
 pyautogui.write("senha123")
 
 pyautogui.click(x=717, y=539)
+time.sleep(4)
+
+""" Passo #3 - Importar a base de dados """ #pip install pandas numpy openpyxl
 
 
 
 
 
 
-""" Passo #3 - Importar a base de dados """
+
 """ Passo #4 - Cadastrar um produto """
 """ Passo #5 - Repetir isso até acabar a base de dados """
