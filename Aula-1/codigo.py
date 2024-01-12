@@ -8,7 +8,8 @@ import time
 """ clicar -> pyautogui.click """
 """ escrever -> pyautogui.write """
 """ apertar uma tecla -> pyautogui.press """
-""" apertar atalho -> pyautogui.hotkey """
+""" apertar atalho "CTRL+C" -> pyautogui.hotkey """
+""" scroll -> pyautogui.scroll """
 
 pyautogui.PAUSE = 1 
 """ define que a cada comando espere 1seg em TODOS os comandos  """
@@ -92,7 +93,7 @@ pyautogui.press("tab")
 pyautogui.press("tab")
 pyautogui.press("enter")
 
-
+pyautogui.scroll(5000)
 
 
 """ Passo #5 - Repetir isso até acabar a base de dados """
