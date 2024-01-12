@@ -8,6 +8,7 @@ import time
 """ clicar -> pyautogui.click """
 """ escrever -> pyautogui.write """
 """ apertar uma tecla -> pyautogui.press """
+""" apertar atalho -> pyautogui.hotkey """
 
 pyautogui.PAUSE = 1 
 """ define que a cada comando espere 1seg em TODOS os comandos  """
@@ -44,7 +45,7 @@ pyautogui.write("meloanajulia30@gmail.com")
 pyautogui.press("tab")
 
 #digitar a senha
-pyautogui.write("senha123")
+pyautogui.write("senha123")     
 
 pyautogui.click(x=717, y=539)
 time.sleep(3)
@@ -53,7 +54,7 @@ time.sleep(3)
 import pandas
 
 tabela = pandas.read_csv("produtos.csv") #se estiver em outra pasta, usar = "C://Users/exemplo.csv"
-#print(tabela)
+print(tabela)
 # print - visualiza alguma informação
 
 
