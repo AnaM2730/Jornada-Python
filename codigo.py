@@ -54,7 +54,7 @@ time.sleep(3)
 import pandas
 
 tabela = pandas.read_csv("produtos.csv") #se estiver em outra pasta, usar = "C://Users/exemplo.csv"
-#print(tabela)
+print(tabela)
 # print - visualiza alguma informação
 
 
@@ -88,9 +88,7 @@ pyautogui.press("tab")
 pyautogui.write("")
 pyautogui.press("tab")
 
-#enviar o produto
-pyautogui.press("tab")
-pyautogui.press("enter")
+
 
 
 
