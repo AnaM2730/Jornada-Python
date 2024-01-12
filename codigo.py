@@ -93,7 +93,7 @@ for linha in tabela.index:
     #obs
     obs = tabela.loc[linha, "obs"]
     if not pandas.isna(obs):
-        pyautogui.write(obs)
+        pyautogui.write((str(tabela.loc[linha, "obs"])))
 
     pyautogui.press("tab")
     #enviar o produto
